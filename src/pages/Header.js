@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 
 const Header = () => {
   return (
-    <div className="bg-merah">
+    <div className="bg-red">
       <Hero />
     </div>
   );

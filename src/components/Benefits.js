@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <article className="flex justify-center flex-wrap w-full mt-5">
-      <div className="w-1/2 self-center pl-36">
+      <div className="md:w-1/2 self-center md:pl-36">
         <h3 className="text-4xl text-left font-bold">
           KEUNTUNGAN
           <br />
@@ -12,7 +12,7 @@ const Benefits = () => {
           MITRA ALATA TERNAK
         </h3>
       </div>
-      <div className="w-1/2">
+      <div className="md:w-1/2">
         <table>
           <tbody>
             <tr>
@@ -30,7 +30,6 @@ const Benefits = () => {
               <td>
                 <p className="text-left text-3xl">Kualitas Produk Terjamin</p>
               </td>
-              \
               <td className="about-checklist">
                 <i className="fa-solid fa-check fa-2xl"></i>
               </td>
