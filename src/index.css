@@ -40,3 +40,8 @@ code {
 	border-radius: 100%;
 	border: #FF9393 solid 4px;
 }
+
+/* Footer */
+Footer{
+	border-radius: 50px 50px 0 0;
+}

@@ -26,13 +26,13 @@ const Contact = () => {
             Tentang Kami
           </p>
           <p className="texl-base">
-            <i class="fa-brands fa-square-facebook"></i>
+            <i className="fa-brands fa-square-facebook"></i>
             <a href="https://www.facebook.com/mitra.alatternak.1">Facebook</a>
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
             <a href="https://www.instagram.com/punospoultryequipment/">
               Instagram
             </a>
-            <i class="fa-brands fa-tiktok"></i>
+            <i className="fa-brands fa-tiktok"></i>
             <a href="https://www.tiktok.com/@pt.mitra_alat_ternak?_t=8d0hreqxcws&_r=1">
               Tiktok
             </a>
