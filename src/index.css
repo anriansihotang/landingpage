@@ -34,3 +34,9 @@ code {
 .shadow-card {
   box-shadow: 9px 9px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+/* lokasi penjualan */
+.img-card {
+	border-radius: 100%;
+	border: #FF9393 solid 4px;
+}

@@ -3,7 +3,8 @@ import About from "../components/About";
 import Product from "../components/Product";
 import Best from "../components/BestProduct";
 import Ziggity from "../components/Ziggity";
-import Location from "../components/location";
+import Location from "../components/Location";
+import Contact from "../components/Contact";
 const Main = () => {
 	return (
 		<main>
@@ -12,6 +13,7 @@ const Main = () => {
 			<Best/>
 			<Ziggity/>
 			<Location/>
+			<Contact/>
 		</main>
 	)
 }
