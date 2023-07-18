@@ -26,6 +26,11 @@ code {
 }
 
 /* konten About */
-.benefits-content{
-	padding:50%;
+.benefits-content {
+  padding: 50%;
+}
+
+/* bayangan konten */
+.shadow-card {
+  box-shadow: 9px 9px 4px 0px rgba(0, 0, 0, 0.25);
 }
