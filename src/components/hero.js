@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-merah max-w-[80%] mx-auto">
+      <div className="bg-red max-w-[80%] mx-auto">
         <h1 className="text-center text-yellow text-5xl pt-3">
           PT. MITRA ALAT TERNAK
         </h1>

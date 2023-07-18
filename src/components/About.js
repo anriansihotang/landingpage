@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="bg-white">
       <div className="max-w-[80%] mx-auto flex flex-wrap">
-        <article className="tentang-kami">
+        <article className="tentang-kami" id="about">
           <h2 className="text-yellow text-center text-5xl font-bold pt-4">
             TENTANG KAMI
           </h2>
