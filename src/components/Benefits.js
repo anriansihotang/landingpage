@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Benefits = () => {
   return (
@@ -22,7 +23,11 @@ const Benefits = () => {
                 </p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
 
@@ -31,7 +36,11 @@ const Benefits = () => {
                 <p className="text-left text-3xl">Kualitas Produk Terjamin</p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
 
@@ -40,7 +49,11 @@ const Benefits = () => {
                 <p className="text-left text-3xl">Garansi Produk Premium</p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
 
@@ -49,7 +62,11 @@ const Benefits = () => {
                 <p className="text-left text-3xl">Harga Terjangkau</p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
             <tr>
@@ -57,7 +74,11 @@ const Benefits = () => {
                 <p className="text-left text-3xl">Pengiriman Barang Cepat</p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
             <tr>
@@ -65,7 +86,11 @@ const Benefits = () => {
                 <p className="text-left text-3xl">Pelayanan Ramah</p>
               </td>
               <td className="about-checklist">
-                <i className="fa-solid fa-check fa-2xl"></i>
+                <FontAwesomeIcon
+                  icon="fa-solid fa-check"
+                  size="2xl"
+                  style={{ color: "#00ff04" }}
+                />
               </td>
             </tr>
           </tbody>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Punos = () => {
   return (
-    <article className="max-w-[80%] mx-auto ">
+    <article className="max-w-[80%] mx-auto pb-5">
       <section className="flex flex-wrap">
         <div className="md:w-1/2">
           <img src="./images/best produk.png" alt="" className="w-full"/>
@@ -16,7 +16,7 @@ const Punos = () => {
             semua perternak dan pengguna peralatan ternak dengan merk ini
             menghasilkan unggas - unggas yang sehar dan montok.
           </p>
-		  <button className="bg-pink text-4xl px-14 py-4 rounded-full text-white-light font-bold">PESAN SEKARANG</button>
+		  <button className="bg-pink text-4xl px-14 py-4 rounded-lg text-white-light font-bold">PESAN SEKARANG</button>
         </div>
       </section>
     </article>

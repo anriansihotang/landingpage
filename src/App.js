@@ -8,7 +8,8 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
-library.add(fab, faInstagram, faSquareFacebook, faTiktok);
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+library.add(fab, faInstagram, faSquareFacebook, faTiktok, faCheck);
 
 function App() {
   return (
