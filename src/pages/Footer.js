@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
@@ -34,8 +35,8 @@ const Footer = () => {
           <div className="w-1/4">
             <h5 className="text-left text-base font-bold mb-3">LOKASI KAMI</h5>
             <p className="text-left text-sm">
-              Jl. Rimpak Wetan, Sindangasih, Kec. Sindang Jaya, <br/>Kabupaten
-              Tangerang, Banten 15560
+              Jl. Rimpak Wetan, Sindangasih, Kec. Sindang Jaya, <br />
+              Kabupaten Tangerang, Banten 15560
             </p>
           </div>
           <div className="w-1/4">
@@ -53,6 +54,38 @@ const Footer = () => {
           </div>
           <div className="w-1/4">
             <h5 className="text-left text-base font-bold mb-3">FOLLOW US</h5>
+            <div className="text-left">
+              <a
+                className="border-foot-brand"
+                href="https://www.instagram.com/punospoultryequipment/"
+              >
+                <FontAwesomeIcon
+                  icon="fa-brands fa-instagram"
+                  size="2xl"
+                  style={{ color: "#ffde5d" }}
+                />
+              </a>
+              <a
+                className="border-foot-brand"
+                href="https://web.facebook.com/mitra.alatternak.1"
+              >
+                <FontAwesomeIcon
+                  icon="fa-brands fa-facebook"
+                  size="2xl"
+                  style={{ color: "#ffde5d" }}
+                />
+              </a>
+              <a
+                className="border-foot-brand"
+                href="https://www.youtube.com/@mitraalatternak"
+              >
+                <FontAwesomeIcon
+                  icon="fa-brands fa-youtube"
+                  size="2xl"
+                  style={{ color: "#ffde5d" }}
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

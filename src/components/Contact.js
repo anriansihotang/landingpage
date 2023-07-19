@@ -1,39 +1,58 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   return (
     <div className="bg-white" id="kontak">
       <div className="max-w-[80%] mx-auto">
-        <h2 className="text-yellow text-5xl font-bold py-3">KONTAK KAMI</h2>
+        <h2 className="text-yellow text-5xl font-bold py-4">KONTAK KAMI</h2>
         <div className="flex flex-wrap w-full items-center">
           <section className="w-1/2 self-center">
-            <img src="./images/whatsapp.png" alt="" className="mx-auto" />
-            <p>+62 815-1116-6115</p>
-            <p>Senin - Jumat</p>
-            <p>08:00 Pagi - 05:00 Sore</p>
+            <img src="./images/whatsapp.png" alt="" className="mx-auto mb-8" />
+            <p className="text-3xl font-medium mb-7">+62 815-1116-6115</p>
+            <p className="text-base font-bold">Senin - Jumat</p>
+            <p className="text-base font-bold">08:00 Pagi - 05:00 Sore</p>
           </section>
           <section className="w-1/2">
-            <img src="./images/email.png" alt="" className="mx-auto" />
-            <p>tanya@mitraalatternak.co.id</p>
-            <p>Senin - Sabtu</p>
-            <p>24/Jam</p>
+            <img src="./images/email.png" alt="" className="mx-auto mb-8" />
+            <p className="text-3xl font-medium mb-7">tanya@mitraalatternak.co.id</p>
+            <p className="text-base font-bold">Senin - Sabtu</p>
+            <p className="text-base font-bold">24/Jam</p>
           </section>
         </div>
-        <section>
-          <img src="./images/punos.png" alt="" className="mx-auto"/>
-          <p>
+        <section className="py-8">
+          <img src="./images/punos.png" alt="" className="mx-auto" />
+          <p className="font-bold text-3xl mb-4 mt-5">
             Jangan Lupa Ikuti Sosial Media Kami Agar Dapat Info Terupdate
+            <br />
             Tentang Kami
           </p>
           <p className="texl-base">
-            <i className="fa-brands fa-square-facebook"></i>
-            <a href="https://www.facebook.com/mitra.alatternak.1">Facebook</a>
-            <i className="fa-brands fa-instagram"></i>
-            <a href="https://www.instagram.com/punospoultryequipment/">
+            <FontAwesomeIcon
+              icon="fa-brands fa-square-facebook"
+              style={{ color: "#395794" }}
+            />
+            <a
+              href="https://www.facebook.com/mitra.alatternak.1"
+              className="text-contact mx-1 hover:underline hover:font-semibold"
+            >
+              Facebook
+            </a>
+            <FontAwesomeIcon
+              icon="fa-brands fa-instagram"
+              style={{ color: "#f55240" }}
+            />
+            <a
+              href="https://www.instagram.com/punospoultryequipment/"
+              className="text-contact mx-1 hover:underline hover:font-semibold"
+            >
               Instagram
             </a>
-            <i className="fa-brands fa-tiktok"></i>
-            <a href="https://www.tiktok.com/@pt.mitra_alat_ternak?_t=8d0hreqxcws&_r=1">
+            <FontAwesomeIcon icon="fa-brands fa-tiktok" />
+            <a
+              href="https://www.tiktok.com/@pt.mitra_alat_ternak?_t=8d0hreqxcws&_r=1"
+              className="text-contact mx-1 hover:underline hover:font-semibold"
+            >
               Tiktok
             </a>
           </p>

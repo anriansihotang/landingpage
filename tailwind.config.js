@@ -13,6 +13,7 @@ module.exports = {
       "white-light": "#FFFEFE",
       pink: "#FF9393",
 	  "white-card": "#FFFCF7",
+	  'contact': '#737373',
     },
   },
   plugins: [],
