@@ -5,24 +5,24 @@ const Contact = () => {
   return (
     <div className="bg-white" id="kontak">
       <div className="max-w-[80%] mx-auto">
-        <h2 className="text-yellow text-5xl font-bold py-4">KONTAK KAMI</h2>
+        <h2 className="text-3xl text-yellow md:text-5xl font-bold py-4">KONTAK KAMI</h2>
         <div className="flex flex-wrap w-full items-center">
-          <section className="w-1/2 self-center">
+          <section className="w-full md:w-1/2 self-center mb-2">
             <img src="./images/whatsapp.png" alt="" className="mx-auto mb-8" />
-            <p className="text-3xl font-medium mb-7">+62 815-1116-6115</p>
+            <p className="text-2xl md:text-3xl font-medium mb-7">+62 815-1116-6115</p>
             <p className="text-base font-bold">Senin - Jumat</p>
             <p className="text-base font-bold">08:00 Pagi - 05:00 Sore</p>
           </section>
-          <section className="w-1/2">
+          <section className="w-full md:w-1/2 mb-2">
             <img src="./images/email.png" alt="" className="mx-auto mb-8" />
-            <p className="text-3xl font-medium mb-7">tanya@mitraalatternak.co.id</p>
+            <p className="text-2xl md:text-3xl font-medium mb-7">tanya@mitraalatternak.co.id</p>
             <p className="text-base font-bold">Senin - Sabtu</p>
             <p className="text-base font-bold">24/Jam</p>
           </section>
         </div>
         <section className="py-8">
           <img src="./images/punos.png" alt="" className="mx-auto" />
-          <p className="font-bold text-3xl mb-4 mt-5">
+          <p className="text-lg font-bold md:text-3xl mb-4 mt-5">
             Jangan Lupa Ikuti Sosial Media Kami Agar Dapat Info Terupdate
             <br />
             Tentang Kami

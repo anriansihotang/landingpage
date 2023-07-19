@@ -24,13 +24,18 @@ code {
 }
 /* Hero */
 .img-hero {
-  height: 320px;
+  /* height: 320px; */
   margin: 0 auto;
 }
 .bg-hero {
   background: linear-gradient(180deg, #e74c38 50%, #fef9f5 50%);
 }
 
+.drop-hero {
+	border: #fefefe solid 2px;
+	border-radius: 100%;
+	padding:20px;
+}
 /* konten About */
 .benefits-content {
   padding: 50%;

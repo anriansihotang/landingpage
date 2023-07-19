@@ -9,7 +9,15 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-library.add(fab, faInstagram, faSquareFacebook, faTiktok, faCheck);
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+library.add(
+  fab,
+  faInstagram,
+  faSquareFacebook,
+  faTiktok,
+  faCheck,
+  faChevronDown
+);
 
 function App() {
   return (
