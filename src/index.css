@@ -15,7 +15,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+* {
+  scroll-behavior: smooth;
+}
+/* Nav */
+.img-nav {
+  width: 14vh;
+}
 /* Hero */
 .img-hero {
   height: 320px;
@@ -37,17 +43,17 @@ code {
 
 /* lokasi penjualan */
 .img-card {
-	border-radius: 100%;
-	border: #FF9393 solid 4px;
+  border-radius: 100%;
+  border: #ff9393 solid 4px;
 }
 
 /* Footer */
-Footer{
-	border-radius: 50px 50px 0 0;
+Footer {
+  border-radius: 50px 50px 0 0;
 }
-.border-foot-brand{
-	background-color:#FFFEFE;
-	border-radius: 100%;
-	padding:10px;
-	margin-right:5px;
+.border-foot-brand {
+  background-color: #fffefe;
+  border-radius: 100%;
+  padding: 10px;
+  margin-right: 5px;
 }

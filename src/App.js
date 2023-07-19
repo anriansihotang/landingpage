@@ -13,7 +13,7 @@ library.add(fab, faInstagram, faSquareFacebook, faTiktok, faCheck);
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Header />
       <Main />
       <Footer />
