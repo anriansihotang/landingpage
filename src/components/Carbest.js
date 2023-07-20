@@ -20,7 +20,7 @@ const Cardbest = () => {
           <h3 className="text-2xl text-pink text-center md:text-4xl pt-3.5 pb-4">
             CONE FAN & BOX FAN PUNOS
           </h3>
-          <p className="text-xl m-auto text-justify md:text-3xll">
+          <p className="text-xl m-auto text-justify md:text-3xl">
             Selain digunakan untuk mengeluarkan suhu panas, Cone Fan & Box Fan
             Punos bergunakan juga untuk mengeluarkan bau amonia dalam kandang.
             Sehingga ayam tidak mudah terkena penyakit.
