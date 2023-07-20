@@ -5,13 +5,13 @@ const Hero = () => {
   return (
     <>
       <div className="bg-red max-w-[80%] mx-auto pt-32">
-        <h1 className="text-center text-yellow text-5xl pt-3">
+        <h1 className="text-2xl text-center text-yellow md:text-5xl pt-3">
           PT. MITRA ALAT TERNAK
         </h1>
-        <h2 className="text-center text-pink-text text-4xl">
+        <h2 className="text-lg text-center text-pink-text md:text-4xl">
           Sahabat Peternak Broiler dan Breeder
         </h2>
-        <p className="text-center text-pink-text text-4xl mt-11 mb-10">
+        <p className="text-2xl text-center text-pink-text md:text-4xl mt-11 mb-10">
           Hubungi Kami
         </p>
         <a href="#about" className="drop-hero">
