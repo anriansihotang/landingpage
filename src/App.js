@@ -10,6 +10,7 @@ import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import Navigation from "./components/Nav";
 library.add(
   fab,
   faInstagram,
@@ -19,9 +20,11 @@ library.add(
   faChevronDown
 );
 
+
 function App() {
   return (
     <div className="App" id="home">
+      <Navigation />
       <Header />
       <Main />
       <Footer />

@@ -9,8 +9,8 @@ const Navigation = () => {
   };
 
   return (
-    <div className="fixed w-full bg-red z-50">
-      <div className="flex justify-between items-center h-24 max-w-[90%] md:max-w-[65%] mx-auto px-4 text-white-light bg-red">
+    <div className="sticky top-0 w-full bg-red z-50">
+      <div className="flex justify-between items-center h-20 max-w-[90%] md:max-w-[65%] mx-auto px-4 text-white-light bg-red">
         <img
           src="./images/icon-header.png"
           alt="icon-navbar"

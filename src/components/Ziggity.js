@@ -7,7 +7,7 @@ const Ziggity = () => {
       <div className="max-w-[80%] mx-auto py-7">
         <div className="flex flex-wrap w-full mb-3">
           <article className="md:w-1/2">
-            <img src="./images/Ziggity.png" alt="" />
+            <img src="./images/ziggity.png" alt="" />
           </article>
           <article className="md:w-1/2 self-center md:pl-6">
             <h2 className="text-5xl text-yellow md:text-left md:text-7xl font-bold mb-4">
