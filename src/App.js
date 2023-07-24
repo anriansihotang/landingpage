@@ -1,8 +1,8 @@
-// import logo from "./logo.svg";
+// import logo from './logo.svg';
 import "./App.css";
-import Footer from "./pages/Footer";
-import Header from "./pages/Header";
-import Main from "./pages/Main";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +10,11 @@ import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import Navigation from "./components/Nav";
+import Product from "./components/Product";
+import Best from "./components/bestproduct";
+import Ziggity from "./components/Ziggity";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 library.add(
   fab,
   faInstagram,
@@ -20,13 +24,16 @@ library.add(
   faChevronDown
 );
 
-
 function App() {
   return (
-    <div className="App" id="home">
-      <Navigation />
-      <Header />
-      <Main />
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <About />
+      <Product />
+      <Best />
+      <Ziggity />
+      <Contact />
       <Footer />
     </div>
   );

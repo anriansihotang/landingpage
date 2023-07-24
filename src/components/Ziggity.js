@@ -6,15 +6,17 @@ const Ziggity = () => {
     <section className="bg-pink">
       <div className="max-w-[80%] mx-auto py-7">
         <div className="flex flex-wrap w-full mb-3">
-          <article className="md:w-1/2">
+          <article className="lg:w-1/2 ">
             <img src="./images/ziggity.png" alt="" />
           </article>
-          <article className="md:w-1/2 self-center md:pl-6">
-            <h2 className="text-5xl text-yellow md:text-left md:text-7xl font-bold mb-4">
+          <article className="md:w-full md:mx-auto lg:w-1/2 self-center lg:pl-6">
+            <h2 className="text-5xl text-yellow md:text-center lg:text-left md:text-7xl font-bold mb-4">
               ZIGGITY
             </h2>
-            <p className="text-4xl text-black md:text-left md:text-4xl mb-4">KEUNGGULAN</p>
-            <table>
+            <p className="text-4xl text-black md:text-center lg:text-left md:text-4xl mb-4">
+              KEUNGGULAN
+            </p>
+            <table className="md:mx-auto lg:mx-0">
               <tbody>
                 <tr>
                   <td>
@@ -105,7 +107,7 @@ const Ziggity = () => {
           </article>
         </div>
         <a href="https://wa.me/6281511166115?textHalo,Kak%20saya%20mau%20tanya%20-%20tanya%20tentang%20produk%20MAT">
-          <button className="bg-yellow text-white-light py-4 px-7 rounded-lg text-base">
+          <button className="bg-yellow text-white-light py-4 md:px-20 px-6 rounded-lg md:text-4xl text-2xl font-bold">
             Pesan Sekarang
           </button>
         </a>

@@ -1,5 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
@@ -16,7 +15,7 @@ const Footer = () => {
           <div className="md:w-1/4">
             <h5 className="text-left text-base font-bold mb-3">MOTO</h5>
             <p className="text-left text-sm">
-              WE DO NOT ONLY SELL PRODUCTS, WE SELL SOLUTIONS
+              WE DO NOT ONLY SELL PRODUCTS, <br/>	WE SELL SOLUTIONS
             </p>
           </div>
           <div className="md:w-1/4">
@@ -31,59 +30,41 @@ const Footer = () => {
             <p className="text-left text-sm">AZA</p>
           </div>
         </div>
-        <div className="flex flex-wrap w-full py-6">
-          <div className="md:w-1/4">
+        <div className="flex flex-wrap md:flex-row sm:flex-col w-full py-6">
+          <div className="w-full md:w-1/4">
             <h5 className="text-left text-base font-bold mb-3">LOKASI KAMI</h5>
             <p className="text-left text-sm">
               Jl. Rimpak Wetan, Sindangasih, Kec. Sindang <br />
               Jaya, Kabupaten Tangerang, Banten 15560
             </p>
           </div>
-          <div className="md:w-1/4">
+          <div className="w-1/2 md:w-1/4">
             <h5 className="text-left text-base font-bold mb-3">JAM KERJA</h5>
             <p className="text-left text-sm">
               Setiap Hari <br />
               jam 08.00 - 17.00 WIB
             </p>
           </div>
-          <div className="md:w-1/4">
+          <div className="w-1/2 md:w-1/4">
             <h5 className="text-left text-base font-bold mb-3">HUBUNGI KAMI</h5>
             <p className="text-left text-sm">+62 815-1116-6115</p>
             <h5 className="text-left text-base font-bold mb-3">EMAIL</h5>
             <p className="text-left text-sm">tanya@mitraalatternak.co.id</p>
           </div>
-          <div className="md:w-1/4">
-            <h5 className="text-left text-base font-bold mb-3">FOLLOW US</h5>
-            <div className="text-left">
+          <div className="w-full md:w-1/4">
+            <h5 className="text-left text-base font-bold mb-3">MARKETPLACE</h5>
+            <div className="text-left flex w-full">
               <a
-                className="border-foot-brand"
-                href="https://www.instagram.com/punospoultryequipment/"
+                className="w-1/4 md:w-12"
+                href="https://shopee.co.id/pt.mitra_alat_ternak"
               >
-                <FontAwesomeIcon
-                  icon="fa-brands fa-instagram"
-                  size="2xl"
-                  style={{ color: "#ffde5d" }}
-                />
+                <img src="./images/shopee.png" alt="" />
               </a>
               <a
-                className="border-foot-brand"
-                href="https://web.facebook.com/mitra.alatternak.1"
+                className="w-1/4 md:w-12 md:ml-2"
+                href="https://www.tokopedia.com/mitralatternak?source=universe&st=product"
               >
-                <FontAwesomeIcon
-                  icon="fa-brands fa-facebook"
-                  size="2xl"
-                  style={{ color: "#ffde5d" }}
-                />
-              </a>
-              <a
-                className="border-foot-brand"
-                href="https://www.youtube.com/@mitraalatternak"
-              >
-                <FontAwesomeIcon
-                  icon="fa-brands fa-youtube"
-                  size="2xl"
-                  style={{ color: "#ffde5d" }}
-                />
+                <img src="./images/tokopedia.png" alt="" />
               </a>
             </div>
           </div>
