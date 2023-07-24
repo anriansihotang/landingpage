@@ -11,7 +11,11 @@ module.exports = {
 		'white': "#FFFEFE",
 		'black': '#232221',
 		'cream': '#FEF9F5',
+		'red-young' : '#e74738',
 	},
+	fontFamily: {
+		'body' : ['"Poppins'],
+	}
   },
   plugins: [],
 }

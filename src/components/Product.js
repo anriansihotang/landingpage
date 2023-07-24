@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Navigation } from "swiper/modules";
+import { Pagination,Navigation } from "swiper/modules";
 
 const Product = () => {
   return (
@@ -16,30 +16,31 @@ const Product = () => {
           Terlengkap dan Terbaik Untuk Anda
         </p>
       </section>
-      <div className="max-w-[80%] mx-auto flex">
+      <div className="max-w-[80%] mx-auto flex overflow-hidden">
         <Swiper
           slidesPerView={3}
-          spaceBetween={25}
+          spaceBetween={30}
           loop={true}
           fade={"true"}
           grabCursor={true}
-          // onSlideChange={() => console.log("slide change")}
-          // onSwiper={(swiper) => console.log(swiper)}
-          // navigation={true}
-          modules={[Navigation]}
+          navigation={true}
+          pagination={{
+            dynamicBullets: true,
+            clickable: true,
+          }}
+          modules={[Pagination,Navigation]}
           breakpoints={{
             0: {
               slidesPerView: 1,
-              navigation: false,
             },
             520: {
               slidesPerView: 2,
-              navigation: false,
             },
             950: {
               slidesPerView: 3,
             },
           }}
+		  className="myswiper"
         >
           <div className="mx-5">
             <SwiperSlide className="card rounded-2xl bg-white">
@@ -113,8 +114,8 @@ const Product = () => {
                 <h2 className="text-3xl text-black mt-2">MEDICATING SYSTEM</h2>
                 <p className="text-2xl text-justify px-2 mb-2">
                   Medicating system berfungsi untuk mencampurkan larutan
-                  tertentu seperti vitamin dan obat-obatan sebelum dialirkan
-                  ke watering system.
+                  tertentu seperti vitamin dan obat-obatan sebelum dialirkan ke
+                  watering system.
                 </p>
               </div>
             </SwiperSlide>
@@ -215,6 +216,7 @@ const Product = () => {
               </div>
             </SwiperSlide>
           </div>
+          <div className="swiper-pagination"></div>
         </Swiper>
       </div>
     </div>

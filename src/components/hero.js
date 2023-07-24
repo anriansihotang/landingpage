@@ -21,8 +21,12 @@ const Hero = () => {
           duration={500}
           offset={-80}
           className="drop-hero"
+          aria-label="button down to about"
         >
-          <button className="text-center mx-auto">
+          <button
+            className="text-center mx-auto"
+            aria-label="button down"
+          >
             <FontAwesomeIcon
               icon="fa-solid fa-chevron-down"
               size="xl"

@@ -26,3 +26,19 @@ body {
     padding: 10px;
   }
 }
+
+.swiper {
+  padding: 0 37px !important;
+}
+
+@media screen and (max-width: 820px) {
+  .swiper {
+    padding: 0 0 !important;
+  }
+  .swiper-button-next::after {
+	display: none;
+  }
+  .swiper-button-prev::after{
+	display: none;
+  }
+}

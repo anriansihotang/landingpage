@@ -57,12 +57,14 @@ const Footer = () => {
               <a
                 className="w-1/4 md:w-12"
                 href="https://shopee.co.id/pt.mitra_alat_ternak"
+				aria-label="link to shopee"
               >
                 <img src="./images/shopee.png" alt="" />
               </a>
               <a
                 className="w-1/4 md:w-12 md:ml-2"
                 href="https://www.tokopedia.com/mitralatternak?source=universe&st=product"
+				aria-label="link to tokopedia"
               >
                 <img src="./images/tokopedia.png" alt="" />
               </a>
