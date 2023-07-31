@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   return (
-    <div className="bg-white" name="contact">
+    <div className="bg-cream" name="contact">
       <div className="max-w-[80%] mx-auto">
         <h2 className="text-4xl text-yellow md:text-5xl font-bold py-4">
           KONTAK KAMI

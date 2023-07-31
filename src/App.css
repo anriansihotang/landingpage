@@ -27,11 +27,11 @@ body {
   }
 }
 
-.swiper {
+/* .swiper {
   padding: 0 37px !important;
-}
+} */
 
-@media screen and (max-width: 820px) {
+/* @media screen and (max-width: 820px) {
   .swiper {
     padding: 0 0 !important;
   }
@@ -41,4 +41,7 @@ body {
   .swiper-button-prev::after{
 	display: none;
   }
+} */
+.swiper {
+	padding-bottom: 25px !important;
 }

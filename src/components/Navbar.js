@@ -13,10 +13,11 @@ const Navbar = () => {
     <div className="sticky top-0 w-full bg-red z-50">
       <div className="flex justify-between items-center h-20 max-w-[90%] md:max-w-[75%] mx-auto px-4 text-white bg-red">
         <img
-          src="./images/icon-header.png"
+          src="./images/nav-icon.png"
           alt="icon-navbar"
           className="img-nav"
         />
+		
 
         <ul className="hidden lg:flex">
           <li className="px-4">

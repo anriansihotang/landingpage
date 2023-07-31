@@ -15,6 +15,7 @@ import Best from "./components/bestproduct";
 import Ziggity from "./components/Ziggity";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Partners from "./components/partners";
 library.add(
   fab,
   faInstagram,
@@ -30,8 +31,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Product />
+      <Product />	
       <Best />
+      <Partners />
       <Ziggity />
       <Contact />
       <Footer />

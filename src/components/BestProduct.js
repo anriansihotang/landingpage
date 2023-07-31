@@ -64,7 +64,7 @@ const Best = () => {
               menghasilkan unggas - unggas yang sehar dan montok.
             </p>
             <a href="https://wa.me/6281511166115?text=Halo,Kak%20saya%20mau%20tanya%20-%20tanya%20tentang%20produk%20MAT">
-              <button className="text-xl bg-pink md:text-4xl px-14 py-4 rounded-lg text-white-light font-bold">
+              <button className="text-xl bg-pink md:text-4xl px-14 py-4 rounded-lg text-white-light font-bold hover:bg-white	">
                 PESAN SEKARANG
               </button>
             </a>
